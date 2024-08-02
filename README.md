@@ -1,4 +1,4 @@
 # Projeto 01 - Programação de Sistemas Para Internet
 
-    Eugenio Urbano
-    Eduardo Mauricio
+EUGENIO URBANO DE MEDEIROS FILHO
+EDUARDO MAURICIO DE OLIVEIRA

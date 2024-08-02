@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{%block title%}Início - Time de Futebol {%endblock%}</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <header>{%block body%}
+        <h1>Time de Futebol</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'index' %}">Início</a></li>
+                <li><a href="{% url 'jogadores' %}">Jogadores</a></li>
+                <li><a href="{% url 'sobre' %}">Sobre</a></li>
+            </ul>
+        </nav>
+        {%endblock%}
+    </header>
+</body>
+</html>
