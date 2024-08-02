@@ -5,8 +5,12 @@ def index(request):
 
 def jogadores(request):
     jogadores = [
-        ("Nome")
+        {"Nome": "Lionel Messi", "idade": "32"}
     ]
+    context = {
+        "atletas": jogadores,
+    }
+    return render(request, "sobre.html"),
 
 def sobre(request):
     return render(request, "sobre.html")
