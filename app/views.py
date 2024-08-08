@@ -4,7 +4,7 @@ def index(request):
     return render(request, "index.html")
 
 def jogadores(request):
-    return render(request, "sobre.html")
+    return render(request, "jogadores.html")
 
 def sobre(request):
     return render(request, "sobre.html")
