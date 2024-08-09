@@ -1,11 +1,143 @@
 {%extends 'base.html'%}
+{%load static%}
 
-{%block title%}Teste 2{%endblock%}
+{%block title%}Jogadores{%endblock%}
 
 {%block content%}
-<h1> Jogadores </h1>
+<div class="album py-5 bg-body-tertiary">
+    <div class="container">
 
-    
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="{% static 'jogador_01.jpg' %}" class="img-thumbnail" alt="Diego Roncaglio" >
+                    <div class="card-body">
+                        <li class="card-text">Nome: Diego Roncaglio</li>
+                        <li class="card-text">Idade: 36 anos</li>
+                        <li class="card-text">Posição: Goleiro</li>
+                        <li class="card-text">Naturalidade: Blumenau - SC</li>
+                    </div>
+                </div>
+            </div >
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="{% static 'jogador_02.jpg' %}" class="img-thumbnail" alt="Neguinho" >
+                    <div class="card-body">
+                        <li class="card-text">Nome: João Victor (Neguinho)</li>
+                        <li class="card-text">Idade: 24 anos</li>
+                        <li class="card-text">Posição: Fixo</li>
+                        <li class="card-text">Naturalidade: São Paulo - SP</li>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="{% static 'jogador_03.jpg' %}" class="img-thumbnail" alt="Gadeia" >
+                    <div class="card-body">
+                        <li class="card-text">Nome: Fabrício Bastezini (Gadeia)</li>
+                        <li class="card-text">Idade: 36 anos</li>
+                        <li class="card-text">Posição: Fixo</li>
+                        <li class="card-text">Naturalidade: São Lourenço do Oeste - SC</li>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="{% static 'jogador_04.jpg' %}" class="img-thumbnail" alt="Marlon" >
+                    <div class="card-body">
+                        <li class="card-text">Nome: Marlon Araújo</li>
+                        <li class="card-text">Idade: 36 anos</li>
+                        <li class="card-text">Posição: Fixo</li>
+                        <li class="card-text">Naturalidade: Salvador - BH</li>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                  <img src="{% static 'jogador_05.jpg' %}" class="img-thumbnail" alt="Felipe" >
+                  <div class="card-body">
+                    <li class="card-text">Nome: Felipe Valério</li>
+                    <li class="card-text">Idade: 31 anos</li>
+                    <li class="card-text">Posição: Fixo</li>
+                    <li class="card-text">Naturalidade: Suzano - SP</li>
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                  <img src="{% static 'jogador_06.jpg' %}" class="img-thumbnail" alt="Arthur" >
+                  <div class="card-body">
+                    <li class="card-text">Nome: Arthur Guilherme</li>
+                    <li class="card-text">Idade: 30 anos</li>
+                    <li class="card-text">Posição: Ala</li>
+                    <li class="card-text">Naturalidade: Uberlandia - MG</li>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
 
+            <div class="col">
+                <div class="card shadow-sm">
+                  <img src="{% static 'jogador_07.jpg' %}" class="img-thumbnail" alt="Marcênio" >
+                  <div class="card-body">
+                    <li class="card-text">Nome: Marcênio Ribeiro</li>
+                    <li class="card-text">Idade: 36 anos</li>
+                    <li class="card-text">Posição: Ala</li>
+                    <li class="card-text">Naturalidade: Mato Grosso do Sul - MS</li>
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                  <img src="{% static 'jogador_08.jpg' %}" class="img-thumbnail" alt="Diego" >
+                  <div class="card-body">
+                    <li class="card-text">Nome: Diego Nunes</li>
+                    <li class="card-text">Idade: 29 anos</li>
+                    <li class="card-text">Posição: Ala</li>
+                    <li class="card-text">Naturalidade: Guarulhos - SP</li>
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                  <img src="{% static 'jogador_09.jpg' %}" class="img-thumbnail" alt="Rafa" >
+                  <div class="card-body">
+                    <li class="card-text">Nome: Rafael dos Santos</li>
+                    <li class="card-text">Idade: 33 anos</li>
+                    <li class="card-text">Posição: Pivô</li>
+                    <li class="card-text">Naturalidade: São Bernardo do Campo - SP</li>
+                  </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card shadow-sm">
+                  <img src="{% static 'jogador_10.jpg' %}" class="img-thumbnail" alt="Pito" >
+                  <div class="card-body">
+                    <li class="card-text">Nome: Jean Pierre</li>
+                    <li class="card-text">Idade: 32 anos</li>
+                    <li class="card-text">Posição: Pivô</li>
+                    <li class="card-text">Naturalidade: Chapeco - SC</li>
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                  <img src="{% static 'jogador_11.jpg' %}" class="img-thumbnail" alt="Rocha" >
+                  <div class="card-body">
+                    <li class="card-text">Nome: Vinicius Nunes</li>
+                    <li class="card-text">Idade: 29 anos</li>
+                    <li class="card-text">Posição: Pivô</li>
+                    <li class="card-text">Naturalidade: São Vicente - SP</li>
+                  </div>
+                </div>
+            </div>
+            
+        
+        </div>
+    </div>
+</div>
 {%endblock%}
 
